@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context="menu.ExpandedFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#AA000000"
+        android:elevation="20dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:src="@drawable/cute_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Made a purchase? Enter the code from your receipt here!"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:weightSum="10"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:hint="Enter code here"
+                android:background="#BBFFFFFF"
+                android:id="@+id/code_edit"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:id="@+id/submit_button"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

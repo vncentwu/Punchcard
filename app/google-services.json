@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "52984452250",
+    "firebase_url": "https://punchcard-ef0c9.firebaseio.com",
+    "project_id": "punchcard-ef0c9",
+    "storage_bucket": "punchcard-ef0c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52984452250:android:852c1c86476ab203",
+        "android_client_info": {
+          "package_name": "com.scardox.vncentwu.punchcard3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52984452250-endgm3lg5628tft0vdrr0umudpdc790g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scardox.vncentwu.punchcard3",
+            "certificate_hash": "07119468E1A554ABC3D4AC306B17F490205793F4"
+          }
+        },
+        {
+          "client_id": "52984452250-ldq2ftuq8susngb1rhf13nv9rrmui7vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoM25nNqDxP-WP3xAkffPnVEHtUD-8xh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52984452250-ldq2ftuq8susngb1rhf13nv9rrmui7vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
